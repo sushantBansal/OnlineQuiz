@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "5f3855159f1772854244e2b0",
+        "title": "Category title 1",
+        "icon": "fa fa-user",
+        "display": "false",
+        "image": "no-image.jpg",
+        "description": "Description",
+        "parentCategory": "5f3855159f1772854244e2b0"
+    },
+    {
+        "_id": "5f385249cca60824a636612e",
+        "title": "Category title 2",
+        "icon": "fa fa-user",
+        "display": "false",
+        "image": "no-image.jpg",
+        "description": "Description",
+        "parentCategory": "5f3855159f1772854244e2b0"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "_id": "5f3855159f1772854244e2b0",
+        "title": "Quiz title 1",
+        "noOfQuestion": "20",
+        "quizDuration": "20",
+        "displayOnLeaderboard": "false",
+        "isRandom": "false",
+        "description": "Description",
+        "instruction": "Please follow the instructions",
+        "category": "5f3855159f1772854244e2b0"
+    },
+    {
+        "_id": "5f385249cca60824a636612e",
+        "title": "Quiz title 2",
+        "noOfQuestion": "20",
+        "quizDuration": "20",
+        "displayOnLeaderboard": "false",
+        "isRandom": "false",
+        "description": "Description",
+        "instruction": "Please follow the instructions",
+        "category": "5f3855159f1772854244e2b0"
+    }
+]

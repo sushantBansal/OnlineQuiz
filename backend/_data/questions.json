@@ -1,0 +1,34 @@
+[
+    {
+        "_id": "5f38524328d7ea8741cf4254",
+        "title": "Is React a js framework",
+        "isMultipleChoice": "false",
+        "questionChoices": [
+            {
+                "text": "Yes React is a framework",
+                "isCorrect": "true"
+            },
+            {
+                "text": "No react is a not a framework",
+                "isCorrect": "false"
+            }
+        ],
+        "quiz": "5f3855159f1772854244e2b0"
+    },
+    {
+        "_id": "5f385762931201d13e2f903d",
+        "title": "Is React a js framework",
+        "isMultipleChoice": "false",
+        "questionChoices": [
+            {
+                "text": "Yes React is a framework",
+                "isCorrect": "true"
+            },
+            {
+                "text": "No react is a not a framework",
+                "isCorrect": "false"
+            }
+        ],
+        "quiz": "5f385249cca60824a636612e"
+    }
+]
