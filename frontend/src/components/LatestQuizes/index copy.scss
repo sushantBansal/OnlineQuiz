@@ -1,0 +1,288 @@
+// catogories
+.categories {
+  .section-heading {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+
+    h2 {
+      font-size: 36px;
+      font-weight: 700;
+      color: #233d63;
+    }
+
+    h5 {
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #51be78;
+      background-color: rgba(81, 190, 120, 0.1);
+      padding: 0 10px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      letter-spacing: 0.6px;
+      margin-bottom: 5px;
+      line-height: 26px;
+    }
+
+    .section-divider {
+      display: inline-block;
+      position: relative;
+      height: 5px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      background-color: #51be78;
+      width: 90px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+      overflow: hidden;
+
+      .circle {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -1.1px;
+        height: 7px;
+        width: 8px;
+        background-color: #fff;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: dot-move;
+        animation-name: dot-move;
+      }
+
+      @-webkit-keyframes dot-move {
+        from {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+
+        to {
+          -webkit-transform: translateX(88px);
+          transform: translateX(88px);
+        }
+      }
+    }
+  }
+
+  .cat-colm {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 25%;
+
+    &:hover a.theme-btn {
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+
+    &:hover img {
+      -webkit-transform: scale(1.1) rotate(3deg);
+      -moz-transform: scale(1.1) rotate(3deg);
+      -ms-transform: scale(1.1) rotate(3deg);
+      -o-transform: scale(1.1) rotate(3deg);
+      transform: scale(1.1) rotate(3deg);
+    }
+
+    &:hover .cat__meta {
+      opacity: 0;
+      visibility: hidden;
+      margin: 0;
+    }
+
+    &:hover .category-content {
+      padding-top: 0 !important;
+    }
+
+    ::after {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #233d63;
+      opacity: 0.3;
+      content: "";
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      z-index: -1;
+    }
+
+    img {
+      width: 100%;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+    .category-content {
+      position: absolute;
+      text-align: center;
+      padding-top: 50px;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      color: #fff;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: flex;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+
+      p {
+        margin-top: 4px;
+        text-transform: capitalize;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+
+      h3 {
+        text-transform: capitalize;
+        font-size: 22px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        font-weight: 700;
+
+        a {
+          color: #fff;
+        }
+      }
+
+      a.theme-btn {
+        background-color: #fff;
+        border: 2px solid #fff;
+        color: #233d63;
+        line-height: 40px;
+        padding-right: 20px;
+        padding-left: 20px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        font-size: 13px;
+        visibility: hidden;
+        border-color: #fff;
+        padding: 0px 30px 0px 30px;
+        border-radius: 4px;
+        line-height: 40px;
+        display: inline-block;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: transparent !important;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+// catogories
+
+// latest-quiz
+.latestquiz {
+  background: #f9f9f9;
+  padding: 30px 0;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #233d63;
+  }
+
+  h3 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .latest-quiz-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+
+    .latest-quiz-list {
+      width: 25%;
+      background-color: rgba(28, 206, 234, 0.82);
+      background: linear-gradient(-45deg, rgba(147, 26, 222, 0.83) 0%, rgba(28, 206, 234, 0.82) 100%);
+      border-radius: 10px;
+      padding: 30px;
+
+      ul {
+        display: flex;
+        padding: 0;
+        margin: 30px 0;
+        text-align: center;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+
+        li {
+          list-style: none;
+          padding: 0 30px;
+
+          span {
+            display: block;
+            padding: 2px 0;
+          }
+
+          span.ques-icon i {
+            font-size: 27px;
+          }
+
+          span.ques-icon i {
+            font-size: 27px;
+          }
+
+          span.ques-no {
+            font-size: 26px;
+            font-weight: bold;
+            line-height: 1.2;
+          }
+        }
+      }
+    }
+  }
+}
+
+// latest-quiz
+// popular
+.latestquiz.popular {
+  background: transparent;
+}
+
+// popular

@@ -1,0 +1,41 @@
+.trigger {
+    font-size: 1.8rem;
+    line-height: 6.4rem;
+    padding: 0 2.4rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.sidebar {
+    background-color: lighten($color: #242936, $amount: 0);
+}
+
+.my-logo {
+    height: 6rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 75%;
+    }
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    height: 3.2rem;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 1.6rem;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.ant-layout {
+    min-height: 100vh;
+}

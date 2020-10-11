@@ -1,0 +1,35 @@
+.footer {
+  background: #111111;
+  padding: 50px 0;
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }  
+  ul {
+    margin: 40px 0 0;
+    padding: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      padding: 0 15px;
+      i {
+        color: #fff;
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+.copy-right {
+  background: #010101;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  p {
+    margin: 0;
+  }
+}

@@ -1,0 +1,30 @@
+@import "./mixins.scss";
+@import "~bootstrap/scss/bootstrap";
+@import "../node_modules/antd/dist/antd.css";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Mukta', sans-serif;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+.cust-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+img{
+  max-width: 100%;
+}
